@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0" >
+	<title>Adventure</title>
+	<!-- ===== CSS ====== -->
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+<body>
+	
+	<header>
+		<nav class="navbar">
+			<h1 class="logo">Adventure</h1>
+			<ul class="nav-links">
+				<li class="active"><a href=""></a>Home</li>
+				<li><a href=""></a>Tours</li>
+				<li><a href=""></a>Explore</li>
+				<li><a href=""></a>About</li>
+				<li class="ctn"><a  href=""></a>Contact Us</li>
+				
+			</ul>
+			<!-- <img src="images/menu-btn.png" alt="" class="menu-btn"> -->
+		</nav>
+		<div class="header-content">
+			<h2>Explore The Coloful World</h2>
+			<div class="line"></div>
+			<h1>A WODNERFUL GIFT</h1>
+			<a href="#" class="ctn">Learn More</a>
+			
+		</div>
+		
+	</header>
+
+	<!-- Event section -->
+	
+	
+	<section class="events">
+		<div class="title">
+			<h1>Upcoming Events</h1>
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col pic">
+			<img src="images/img1.png" alt="">
+			<h4>Everest Camp Trek</h4>
+			<p>Everest Base Camp Track is one of the best hiking destinations in the world. It's become more popular among the mountain lover, after setting off the epic journey to Mt. Everest by Sir Edmund Hillary and Tenzing Norgay Sherpa in the 1950s. </p>
+			<a href="#" class="ctn">Learn More</a>
+		    </div>	
+		<div class="col">
+			<img src="images/img2.png" alt="">
+			<h4>Walking Holidays</h4>
+			<p>Everest Base Camp Track is one of the best hiking destinations in the world. It's become more popular among the mountain lover, after setting off the epic journey to Mt. Everest by Sir Edmund Hillary and Tenzing Norgay Sherpa in the 1950s. </p>
+			<a href="#" class="ctn">Learn More</a>
+		</div>
+	   </div>	
+	</section>
+
+	<section class="explore">
+		<div class="explore-content">
+			<h1>Explore The world</h1>
+			<div class="line"></div>	
+		<p>Everest Base Camp Track embarks Tenzing Hillary Airport at Luka after a short scenic flight from the capital city Kathmandu and follows the Bank of Dudh Koshi River with charming Sherpa settlements, </p>
+		<a href="#" class="ctn">Learn More</a>
+		</div>
+		
+
+	</section>
+
+	<section class="tours">
+		<div class="row">
+			<div class="col content-col">
+				<h1>Upcoming tours & Destination</h1>
+				<div class="line"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nisi delectus vero mollitia beatae dolores velit labore, architecto ut! Quis modi, facilis soluta labore beatae asperiores mollitia atque vero.</p>
+				<a href="#" class="ctn">Learn More</a>
+			</div>
+			<div class="col image-col">
+				<div class="image-gallery">
+					<img src="images/img3.png" alt="">
+					<img src="images/img4.png" alt="">
+					<img src="images/img5.png" alt="">
+					<img src="images/img6.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer">
+		<p>Thamel Marg, Kathmandu, Nepal,Tel: +977 1 4510370,Cell: +977 
+		9841368753 (Karna)</p>
+		<p>copyright ©2021, Outdoor Adventure. All Rights Reserved</p>
+	</section>
+
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+				navlinks.classList.toogle('mobile-menu')
+		})
+	</script>
+</body>
+</html>
